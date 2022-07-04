@@ -38,3 +38,8 @@ let job = "driver";
 console.log(
   "My name is " + firstName + ". I live in " + city + " and I am a " + job
 );
+
+let foxStr = "the quick brown fox";
+let firstLetter = foxStr[0].toUpperCase();
+let rest = foxStr.slice(1);
+console.log(firstLetter + rest);
