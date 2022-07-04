@@ -8,3 +8,11 @@ console.log(helloStrUp);
 let earthlingsStr = "Hello Earthling";
 let earthlingsStrLow = earthlingsStr.toLowerCase();
 console.log(earthlingsStrLow);
+
+let jsStr = "JavaScript";
+// let jsStrSlice = jsStr.slice(3, 6);
+console.log(jsStr.slice(3, 6));
+
+let niceShoesStr = "nice shoes";
+console.log(niceShoesStr.indexOf("l"));
+console.log(niceShoesStr.indexOf("n"));
