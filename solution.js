@@ -16,3 +16,12 @@ console.log(jsStr.slice(3, 6));
 let niceShoesStr = "nice shoes";
 console.log(niceShoesStr.indexOf("l"));
 console.log(niceShoesStr.indexOf("n"));
+
+let oldStr = "Word";
+let first = oldStr[0];
+let newStr = first + oldStr + first;
+console.log(newStr);
+
+let scritcherStr = "Three";
+let lastThreeChars = scritcherStr.slice(-3);
+console.log(lastThreeChars + scritcherStr + lastThreeChars);
