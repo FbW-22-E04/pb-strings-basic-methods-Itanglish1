@@ -25,3 +25,16 @@ console.log(newStr);
 let scritcherStr = "Three";
 let lastThreeChars = scritcherStr.slice(-3);
 console.log(lastThreeChars + scritcherStr + lastThreeChars);
+
+let boogieNightsStr = "Two";
+let start = boogieNightsStr[0];
+let end = boogieNightsStr[2];
+let middle = boogieNightsStr.slice(1, 2);
+console.log(end + middle + start);
+
+let firstName = "First";
+let city = "Rome";
+let job = "driver";
+console.log(
+  "My name is " + firstName + ". I live in " + city + " and I am a " + job
+);
